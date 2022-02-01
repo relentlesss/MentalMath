@@ -19,7 +19,7 @@ int pseudo_rand_ope(int diff) {
   int a = 1 + (rand() % 100);
   int b = 1 + (rand() % 100);
 
-  //generate pseudo-random operation at each function call
+  //generate pseudo-random operation
   std::string ope_str;
   int ope = 1 + (rand() % diff);
 
