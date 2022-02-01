@@ -1,7 +1,7 @@
 // function declaration file
 
-// main called func
+// called func
 void game_loop(int diff);
 
-// inned called func
+// helper function
 int pseudo_random_ope(int diff);
