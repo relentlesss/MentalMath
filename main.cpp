@@ -29,6 +29,7 @@ int main() {
     std::cout << "The game will start right after, good luck!\n";
 
     std::cin >> usr_diff;
+    // standardize user input
     usr_diff += 2;
 
     }
