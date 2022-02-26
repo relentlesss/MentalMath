@@ -17,7 +17,7 @@ int main() {
   int usr_diff;
   usr_diff = 0;
   
-  // set initial conditions of the game
+  // Set initial conditions of the game
   while (usr_diff < 1 || usr_diff > 5) {
 
     std::cout << "Difficulty: \n";
@@ -29,12 +29,12 @@ int main() {
     std::cout << "The game will start right after, good luck!\n";
 
     std::cin >> usr_diff;
-    // standardize user input
+    // Standardize user input
     usr_diff += 2;
 
     }
 
-  // call the game loop
+  // Call the game loop
   game_loop(usr_diff);
 
 }
