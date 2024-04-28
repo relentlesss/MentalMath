@@ -2,7 +2,7 @@
 
 ## Demo
 
-A demo is availablein the file test.py and the functions are in the file trading_helper.py
+A demo is available in the file test.py and the functions are in the file trading_helper.py
 
 To run the GUI, please type 'streamlit run test.py' in your terminal.
 
