@@ -8,7 +8,8 @@ To run the GUI, please type 'streamlit run test.py' in your terminal.
 
 ## How does it work ?
 
-The method used to compute the realized P&L is not a FIFO nor a LIFO approach but a 'Greedy' one. 
+The method used to compute the realized P&L is not a FIFO nor a LIFO approach but a 'Greedy' one.
+
 The order that will be chosen to close the position at time X is the one that maximize the profit (or minimize loss) among the live orders at time X.
 Assume no transaction costs.
 
